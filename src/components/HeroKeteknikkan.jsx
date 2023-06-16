@@ -13,8 +13,9 @@ export const HeroKeteknikkan = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <div className='text-customSecondary text-lg  mb-6 sm:mt-32 mt-16 font-bold'>
-            BEM-FT UMPO <br /> Mempersembahkan
+          <div className='text-customSecondary text-lg md:text-3xl mb-6 sm:mt-16 mt-16 font-bold'>
+            BEM-FT UMPO <br />{' '}
+            <span className='!font-normal text-xl'>Mempersembahkan</span>
           </div>
         </motion.div>
         <motion.div
@@ -69,7 +70,7 @@ export const HeroKeteknikkan = () => {
             <img
               src={WoeWhite}
               alt='WOE LOGO'
-              className='w-full 2xl:w-[1200px] mx-auto absolute z-10 -top-28 lg:top-6 xl:top-0'
+              className='w-full md:w-1/2 mx-auto absolute z-10 -top-28 lg:-top-36'
             />
           </div>
         </motion.div>
@@ -84,7 +85,7 @@ export const HeroKeteknikkan = () => {
             >
               <path
                 d='M1200 0L0 0 598.97 114.72 1200 0z'
-                className='shape-fill custom-bg-dark1'
+                className='shape-fill custom-bg-dark2'
               ></path>
             </svg>
           </div>

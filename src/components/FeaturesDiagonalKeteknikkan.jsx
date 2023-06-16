@@ -30,16 +30,16 @@ export const FeaturesDiagonalKeteknikkan = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        <div className=' 2xl:w-[1150px] xl:w-[1050px]  md:w-4/5 flex justify-center bg-customDarkBg1 pt-4 lg:pt-24 pb-8 lg:pb-20 mx-auto lg:flex-row flex-col'>
-          <div className='w-3/4 lg:w-1/2 flex flex-col lg:mx-unset mx-auto'>
-            <h2 className='mt-10 !mb-0 md:mb-5 !text-4xl lg:text-5xl custom-block-big-title !leading-snug'>
+        <div className=' 2xl:w-[1150px] xl:w-[1050px] md:w-4/5 flex justify-center bg-customDarkBg1 pt-4 lg:pt-24 pb-8 lg:pb-20 mx-auto flex-col'>
+          <div className='w-3/4 lg:w-11/12 flex flex-col lg:mx-unset mx-auto'>
+            <h2 className='mt-10 !mb-0 md:mb-5 lg:text-center !text-4xl lg:text-5xl custom-block-big-title !leading-snug'>
               Daftar Lomba Keteknikkan.
             </h2>
           </div>
-          <div className='w-4/5 lg:w-1/2 lg:pl-16 flex justify-center flex-col space-y-8 mx-auto pt-16 lg:pt-0'>
-            <div className='border-2 border-gray-400 rounded-xl p-5 bg-gray-900'>
+          <div className='w-4/5 lg:w-full lg:pl-0 flex flex-col lg:flex-row justify-center space-y-8 lg:space-x-8 lg:mt-8 lg:space-y-0 mx-auto pt-16 lg:pt-0'>
+            <div className='border-2 border-gray-400 rounded-xl p-5 bg-gray-900 lg:w-1/3'>
               <img src={uiux} alt='uiux design' className='rounded-xl' />
-              <p className='mb-10 text-customGrayText leading-loose mt-4'>
+              <p className='mb-10 text-customGrayText leading-loose mt-4 line-clamp-6'>
                 Kompetisi UI/UX Design tingkat SMA/SMK Sederajat adalah sebuah
                 ajang kompetisi desain antar pelajar SMA/SMK untuk merancang
                 sebuah antarmuka atau produk yang memiliki nilai inovasi dan
@@ -48,18 +48,18 @@ export const FeaturesDiagonalKeteknikkan = () => {
               <a
                 href='https://bit.ly/UIUXWOE2023'
                 target='_blank'
-                className='w-full md:w-[210px] h-12 custom-button-colored mr-10'
+                className='w-full h-12 custom-button-colored mr-10'
               >
                 Daftar
               </a>
             </div>
-            <div className='border-2 border-gray-400 rounded-xl p-5 bg-gray-900'>
+            <div className='border-2 border-gray-400 rounded-xl p-5 bg-gray-900 lg:w-1/3'>
               <img
                 src={gambarTeknik}
                 alt='gambar teknik'
                 className='rounded-xl'
               />
-              <p className='mb-10 text-customGrayText leading-loose mt-4'>
+              <p className='mb-10 text-customGrayText leading-loose mt-4 line-clamp-6'>
                 Gambar teknik merupakan alat untuk menyatakan gagasan atau ide
                 ahli teknik. Gambar Teknik dikenali oleh seluruh perusahaan yang
                 berbeda karena memiliki standar gambar tertentu.
@@ -67,14 +67,14 @@ export const FeaturesDiagonalKeteknikkan = () => {
               <a
                 href='https://bit.ly/LombaGamtek2DWOE2023'
                 target='_blank'
-                className='w-full md:w-[210px] h-12 custom-button-colored mr-10'
+                className='w-full h-12 custom-button-colored mr-10'
               >
                 Daftar
               </a>
             </div>
-            <div className='border-2 border-gray-400 rounded-xl p-5 bg-gray-900'>
+            <div className='border-2 border-gray-400 rounded-xl p-5 bg-gray-900 lg:w-1/3'>
               <img src={poster} alt='poster' className='rounded-xl' />
-              <p className='mb-10 text-customGrayText leading-loose mt-4'>
+              <p className='mb-10 text-customGrayText leading-loose mt-4 line-clamp-6'>
                 Kompetisi Design Grafis tingkat SMA/SMK Sederajat adalah sebuah
                 ajang kompetisi desain antar pelajar SMA/SMK untuk
                 mengekspresikan ide-ide mereka secara visual dan menciptakan
@@ -83,7 +83,7 @@ export const FeaturesDiagonalKeteknikkan = () => {
               <a
                 href='https://bit.ly/LombaposterWOE2023'
                 target='_blank'
-                className='w-full md:w-[210px] h-12 custom-button-colored mr-10'
+                className='w-full h-12 custom-button-colored mr-10'
               >
                 Daftar
               </a>

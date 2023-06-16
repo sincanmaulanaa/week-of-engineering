@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { motion } from 'framer-motion';
 import WoeWhite from '../assets/images/woe-white.png';
 
@@ -8,14 +7,15 @@ export const Hero = () => {
       className='w-screen  flex justify-center items-center bg-customDarkBg1 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0'
       id='home'
     >
-      <div className='w-full md:w-[800px] xl:w-[900px] flex flex-col justify-center items-center pt-16 md:pt-16 lg:pt-20 text-center'>
+      <div className='w-full md:w-[800px] xl:w-[900px] flex flex-col justify-center items-center pt-24 md:pt-16 lg:pt-20 text-center'>
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <div className='text-customSecondary text-lg  mb-6 sm:mt-32 mt-16 font-bold'>
-            BEM-FT UMPO <br /> Mempersembahkan
+          <div className='text-customSecondary text-lg md:text-3xl mb-6 sm:mt-16 mt-16 font-bold'>
+            BEM-FT UMPO <br />{' '}
+            <span className='!font-normal text-xl'>Mempersembahkan</span>
           </div>
         </motion.div>
         <motion.div
@@ -27,7 +27,7 @@ export const Hero = () => {
             <span className='inline md:hidden'>Week of</span>
             <span className='hidden md:inline'>Week of</span>
           </div>
-          <div className='mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-20 md:px-24 lg:px-24'>
+          <div className='mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white px-8 sm:px-20 md:px-24 lg:px-0'>
             Engineering 2023
           </div>
         </motion.div>
@@ -70,12 +70,12 @@ export const Hero = () => {
             <img
               src={WoeWhite}
               alt='WOE LOGO'
-              className='w-full 2xl:w-[1200px] mx-auto absolute z-10 -top-28 lg:top-6 xl:top-0'
+              className='w-full md:w-1/2 mx-auto absolute z-10 -top-28 lg:-top-36 2xl:-top-80'
             />
           </div>
         </motion.div>
-        <div className='relative w-screen flex justify-center '>
-          <div className='custom-shape-divider-bottom-1665343298 mt-4 sm:mt-16 md:mt-52 hidden lg:block'>
+        <div className='relative w-screen flex justify-center'>
+          <div className='custom-shape-divider-bottom-1665343298 mt-4 sm:mt-16 md:mt-8 hidden lg:block'>
             <svg
               data-name='Layer 1'
               xmlns='http://www.w3.org/2000/svg'

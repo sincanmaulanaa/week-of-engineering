@@ -13,8 +13,9 @@ export const HeroVideoProfile = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <div className='text-customSecondary text-lg  mb-6 sm:mt-32 mt-16 font-bold'>
-            BEM-FT UMPO <br /> Mempersembahkan
+          <div className='text-customSecondary text-lg md:text-3xl mb-6 sm:mt-16 mt-16 font-bold'>
+            BEM-FT UMPO <br />{' '}
+            <span className='!font-normal text-xl'>Mempersembahkan</span>
           </div>
         </motion.div>
         <motion.div
@@ -70,11 +71,11 @@ export const HeroVideoProfile = () => {
             <img
               src={WoeWhite}
               alt='WOE LOGO'
-              className='w-full 2xl:w-[1200px] mx-auto absolute z-10 -top-28 lg:top-6 xl:top-0'
+              className='w-full md:w-1/2 mx-auto absolute z-10 -top-28 lg:-top-36'
             />
           </div>
         </motion.div>
-        <div className='relative w-screen flex justify-center '>
+        <div className='relative w-screen flex justify-center'>
           <div className='custom-shape-divider-bottom-1665343298 mt-4 sm:mt-16 md:mt-52 hidden lg:block'>
             <svg
               data-name='Layer 1'
