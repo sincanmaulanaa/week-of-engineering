@@ -27,7 +27,7 @@ export const HeroKeteknikkan = () => {
             <span className='hidden md:inline'>Keteknikkan</span>
           </div>
           <div className='mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-20 md:px-24 lg:px-24'>
-            🎥Competition🎥
+            🦾Competition🦾
           </div>
         </motion.div>
         <motion.div
