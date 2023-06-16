@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { HeroVideoProfile } from '../components/HeroVideoProfile.jsx';
+import { Navbar } from '../components/Navbar.jsx';
+import { FAQVideoProfile } from '../components/FAQVideoProfile.jsx';
+import { Footer } from '../components/Footer.jsx';
+import { ScrollUpButton } from '../components/ScrollUpButton';
+import '../styles/Theme.css';
+import '../styles/Diagonals.css';
+---
+
+<Layout title='Video Profile FT | BEMFT UMPO'>
+  <Navbar client:load />
+  <HeroVideoProfile client:load />
+  <FAQVideoProfile client:load />
+  <Footer />
+  <ScrollUpButton client:load />
+</Layout>

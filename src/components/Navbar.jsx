@@ -9,7 +9,11 @@ const navbarLinks = [
   { label: 'Futsal', href: '/futsal', ariaLabel: 'futsal' },
   { label: 'Essay', href: '/essay', ariaLabel: 'essay' },
   { label: 'MLBB', href: '/mlbb', ariaLabel: 'mlbb' },
-  { label: 'Video Profile', href: '/videoProfile', ariaLabel: 'videoProfile' },
+  {
+    label: 'Video Profiling',
+    href: '/videoProfile',
+    ariaLabel: 'videoProfile',
+  },
   { label: 'Keteknikkan', href: '/keteknikkan', ariaLabel: 'keteknikkan' },
 ];
 

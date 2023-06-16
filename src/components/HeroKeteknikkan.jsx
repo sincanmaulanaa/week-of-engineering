@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
 import WoeWhite from '../assets/images/woe-white.png';
 
-export const HeroEssay = () => {
+export const HeroKeteknikkan = () => {
   return (
     <section
-      className='w-screen  flex justify-center items-center bg-customDarkBg1 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0'
+      className='w-screen  flex justify-center items-center bg-customDarkBg2 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0'
       id='home'
     >
       <div className='w-full md:w-[800px] xl:w-[900px] flex flex-col justify-center items-center pt-16 md:pt-16 lg:pt-20 text-center'>
@@ -22,12 +22,12 @@ export const HeroEssay = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.05 }}
         >
-          <div className='text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4'>
-            <span className='inline md:hidden'>ESSAY</span>
-            <span className='hidden md:inline'>ESSAY</span>
+          <div className='text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4'>
+            <span className='inline md:hidden'>Keteknikkan</span>
+            <span className='hidden md:inline'>Keteknikkan</span>
           </div>
           <div className='mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-20 md:px-24 lg:px-24'>
-            🧑‍🎨Competition🧑‍🎨
+            🎥Competition🎥
           </div>
         </motion.div>
         <motion.div
@@ -36,7 +36,7 @@ export const HeroEssay = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <div className='text-customGrayText text-base lg:text-xl xl:text-2xl mt-10 px-12 sm:px-48 '>
-            “Pemanfaatan Kecerdasan Buatan dalam Dunia Industri"
+            “Ekspresikan Gayamu, Tunjukkan Kemampuanmu"
           </div>
         </motion.div>
         <motion.div
@@ -46,11 +46,10 @@ export const HeroEssay = () => {
         >
           <div className='flex flex-col gap-2 sm:flex-row mt-14 mb-24 sm:mb-40 justify-center'>
             <a
-              href='https://bit.ly/Essay-WOE23'
-              target='_blank'
+              href='#featuresDiagonal'
               className='custom-button-colored w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0'
             >
-              Daftar Yuk
+              Lihat Daftar Lomba
             </a>
             <a
               href='https://drive.google.com/file/d/1JV_Y__1Xmi3T9m2kuuzSXxdKBIP-vI08/view?usp=sharing'

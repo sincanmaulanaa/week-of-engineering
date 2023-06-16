@@ -7,7 +7,10 @@ import videoProfil from '../assets/images/competitions/video-profil.jpg';
 
 export const FeaturesDiagonal = () => {
   return (
-    <section className='lg:mb-16 w-full flex flex-col justify-center items-center bg-customDarkBg1'>
+    <section
+      className='lg:mb-16 w-full flex flex-col justify-center items-center bg-customDarkBg1'
+      id='featuresDiagonal'
+    >
       <div className='custom-shape-divider-bottom-1665696614'>
         <svg
           data-name='Layer 1'
@@ -57,9 +60,12 @@ export const FeaturesDiagonal = () => {
                 atau pandanganmu terkait topik terkait bidang teknik. Buktikan
                 kepiawaianmu dalam merangkai kata dan menginspirasi pembaca.
               </p>
-              <div className='w-full md:w-[210px] h-12 custom-button-colored mr-10'>
+              <a
+                href='/essay'
+                className='w-full md:w-[210px] h-12 custom-button-colored mr-10'
+              >
                 Daftar
-              </div>
+              </a>
             </div>
             <div className='border-2 border-gray-400 rounded-xl p-5 bg-gray-900'>
               <img src={mlbb} alt='mlbb' className='rounded-xl' />
@@ -68,9 +74,12 @@ export const FeaturesDiagonal = () => {
                 E-sport ini akan menguji strategi, kecepatan, dan kerjasama
                 timmu. Siapakah yang akan menjadi juara dalam pertarungan ini?
               </p>
-              <div className='w-full md:w-[210px] h-12 custom-button-colored mr-10'>
+              <a
+                href='/mlbb'
+                className='w-full md:w-[210px] h-12 custom-button-colored mr-10'
+              >
                 Daftar
-              </div>
+              </a>
             </div>
             <div className='border-2 border-gray-400 rounded-xl p-5 bg-gray-900'>
               <img src={videoProfil} alt='videoProfil' className='rounded-xl' />
@@ -80,9 +89,12 @@ export const FeaturesDiagonal = () => {
                 keunikan, keistimewaan, dan semangat Fakultas Teknik melalui
                 karya video yang mengesankan.
               </p>
-              <div className='w-full md:w-[210px] h-12 custom-button-colored mr-10'>
+              <a
+                href='/videoProfile'
+                className='w-full md:w-[210px] h-12 custom-button-colored mr-10'
+              >
                 Daftar
-              </div>
+              </a>
             </div>
             <div className='border-2 border-gray-400 rounded-xl p-5 bg-gray-900'>
               <img src={keteknikkan} alt='keteknikkan' className='rounded-xl' />
@@ -94,9 +106,12 @@ export const FeaturesDiagonal = () => {
                 prakikum yang dimiliki oleh Fakultas Teknik universitas
                 Muhammadiyah Ponorogo.
               </p>
-              <div className='w-full md:w-[210px] h-12 custom-button-colored mr-10'>
+              <a
+                href='/keteknikkan'
+                className='w-full md:w-[210px] h-12 custom-button-colored mr-10'
+              >
                 Daftar
-              </div>
+              </a>
             </div>
           </div>
         </div>

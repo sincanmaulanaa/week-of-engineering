@@ -3,31 +3,27 @@ import { motion } from 'framer-motion';
 
 const FAQData = [
   {
-    question: 'Lomba essay ini untuk siapa aja sih?',
-    answer: 'Lomba essay ini diperuntukkan untuk Siswa SMA/SMK sederajat.',
+    question: 'Lomba MLBB ini untuk siapa aja sih?',
+    answer:
+      'Lomba MLBB ini diperuntukkan untuk mahasiswa aktif fakultas teknik UMPO.',
   },
   {
     question: 'Syarat pendaftarannya apa aja?',
     answer: [
-      ['1. Peserta lomba adalah individu.'],
-      [<br />],
       [
-        '2. Peserta terdaftar sebagai aktif di SMA/SMK yang dibuktikan dengan Kartu Pelajar.',
+        '1. Pemain merupakan mahasiswa aktif Universitas Muhammadiyah Ponorogo yang dibuktikan dengan foto selfie dengan Kartu Tanda Mahasiswa.',
       ],
       [<br />],
-      ['3. Peserta wajib mengisi form pendaftaran.'],
-      [<br />],
       [
-        '4. Peserta telah melakukan pembayaran untuk pendaftaran sebesar 35k/individu.',
+        '2. Setiap pemain wajib menggunakan perangkat smartphone sendiri serta akun Mobile Legend dengan menggunakan nickname yang tidak mengandung unsur negatif dan SARA.',
       ],
       [<br />],
-      ['5. Isi essay harus sesuai dengan tema yang telah ditentukan.'],
-      [<br />],
-      ['6. Setiap peserta hanya diperbolehkan mengirimkan satu naskah essay.'],
-      [<br />],
       [
-        '7. Essay merupakan karya asli dari setiap peserta. Karya essay belum pernah menang dalam lomba sejenis.',
+        '3. Pemain diharuskan menggunakan ID dan nickname yang sama saat pendaftaran.',
       ],
+      [<br />],
+      [<br />],
+      ['Persyaratan lainnya bisa dilihat di guidebook ya.'],
     ],
   },
   {
@@ -35,14 +31,14 @@ const FAQData = [
     answer: [
       [
         <ul>
-          <li>Biaya pendaftaran sebesar Rp35.000/Individu.</li>
+          <li>Biaya pendaftaran sebesar Rp50.000/Tim.</li>
         </ul>,
       ],
     ],
   },
 ];
 
-export const FAQEssay = () => (
+export const FAQMlbb = () => (
   <section className='relative pt-16 pb-16 bg-blueGray-50 overflow-hidden'>
     <div className='absolute -top-10' id='FAQ' />
     <motion.div
@@ -74,7 +70,7 @@ export const FAQEssay = () => (
           <div>
             <h3 className='text-white font-medium'>Contact Person</h3>
             <p className='custom-block-big-title !text-xl'>
-              RISKA : 0859-7381-6784
+              Agil : 082230303909
             </p>
           </div>
         </div>

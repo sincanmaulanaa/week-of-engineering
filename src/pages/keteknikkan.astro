@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { HeroKeteknikkan } from '../components/HeroKeteknikkan.jsx';
+import { Navbar } from '../components/Navbar.jsx';
+import { FAQKeteknikkan } from '../components/FAQKeteknikkan.jsx';
+import { Footer } from '../components/Footer.jsx';
+import { ScrollUpButton } from '../components/ScrollUpButton';
+import '../styles/Theme.css';
+import '../styles/Diagonals.css';
+import { FeaturesDiagonalKeteknikkan } from '../components/FeaturesDiagonalKeteknikkan.jsx';
+---
+
+<Layout title='Keteknikkan | BEMFT UMPO'>
+  <Navbar client:load />
+  <HeroKeteknikkan client:load />
+  <FeaturesDiagonalKeteknikkan client:load />
+  <FAQKeteknikkan client:load />
+  <Footer />
+  <ScrollUpButton client:load />
+</Layout>

@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { HeroMlbb } from '../components/HeroMlbb.jsx';
+import { Navbar } from '../components/Navbar.jsx';
+import { FAQMlbb } from '../components/FAQMlbb.jsx';
+import { Footer } from '../components/Footer.jsx';
+import { ScrollUpButton } from '../components/ScrollUpButton';
+import '../styles/Theme.css';
+import '../styles/Diagonals.css';
+---
+
+<Layout title='Mobile Legends | BEMFT UMPO'>
+  <Navbar client:load />
+  <HeroMlbb client:load />
+  <FAQMlbb client:load />
+  <Footer />
+  <ScrollUpButton client:load />
+</Layout>

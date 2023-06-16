@@ -3,31 +3,21 @@ import { motion } from 'framer-motion';
 
 const FAQData = [
   {
-    question: 'Lomba essay ini untuk siapa aja sih?',
-    answer: 'Lomba essay ini diperuntukkan untuk Siswa SMA/SMK sederajat.',
+    question: 'Lomba Keteknikkan ini untuk siapa aja sih?',
+    answer:
+      'Lomba Keteknikkan ini diperuntukkan untuk siswa dan siswi SMA/SMK sederajat.',
   },
   {
     question: 'Syarat pendaftarannya apa aja?',
     answer: [
-      ['1. Peserta lomba adalah individu.'],
-      [<br />],
       [
-        '2. Peserta terdaftar sebagai aktif di SMA/SMK yang dibuktikan dengan Kartu Pelajar.',
+        '1. Peserta adalah siswa/siswi aktif SMA/SMK sederajat dibuktikan dengan KTP (Kartu Tanda Pelajar) atau Surat Keterangan Aktif sebagai Siswa/Siswi.',
       ],
       [<br />],
-      ['3. Peserta wajib mengisi form pendaftaran.'],
+      ['2. Peserta wajib mengisi form pendaftaran.'],
       [<br />],
-      [
-        '4. Peserta telah melakukan pembayaran untuk pendaftaran sebesar 35k/individu.',
-      ],
       [<br />],
-      ['5. Isi essay harus sesuai dengan tema yang telah ditentukan.'],
-      [<br />],
-      ['6. Setiap peserta hanya diperbolehkan mengirimkan satu naskah essay.'],
-      [<br />],
-      [
-        '7. Essay merupakan karya asli dari setiap peserta. Karya essay belum pernah menang dalam lomba sejenis.',
-      ],
+      ['Persyaratan lainnya bisa dilihat di guidebook ya.'],
     ],
   },
   {
@@ -35,14 +25,16 @@ const FAQData = [
     answer: [
       [
         <ul>
-          <li>Biaya pendaftaran sebesar Rp35.000/Individu.</li>
+          <li>UI/UX Design &gt; Rp50.000/Tim.</li>
+          <li>Gambar Teknik &gt; Rp35.000/Poster.</li>
+          <li>Desain Poster &gt; Rp35.000/Tim.</li>
         </ul>,
       ],
     ],
   },
 ];
 
-export const FAQEssay = () => (
+export const FAQKeteknikkan = () => (
   <section className='relative pt-16 pb-16 bg-blueGray-50 overflow-hidden'>
     <div className='absolute -top-10' id='FAQ' />
     <motion.div
@@ -71,11 +63,31 @@ export const FAQEssay = () => (
               </div>
             ))}
           </div>
-          <div>
-            <h3 className='text-white font-medium'>Contact Person</h3>
-            <p className='custom-block-big-title !text-xl'>
-              RISKA : 0859-7381-6784
-            </p>
+          <div className='flex flex-col space-y-4'>
+            <div>
+              <h3 className='text-white font-medium'>
+                Contact Person UI/UX Design
+              </h3>
+              <p className='custom-block-big-title !text-xl'>
+                Zakia : 081334851551
+              </p>
+            </div>
+            <div>
+              <h3 className='text-white font-medium'>
+                Contact Person Gambar Teknik
+              </h3>
+              <p className='custom-block-big-title !text-xl'>
+                Bahar : 081229093485
+              </p>
+            </div>
+            <div>
+              <h3 className='text-white font-medium'>
+                Contact Person Desain Poster
+              </h3>
+              <p className='custom-block-big-title !text-xl'>
+                Bahar : 081229093485
+              </p>
+            </div>
           </div>
         </div>
       </div>
