@@ -41,7 +41,7 @@ const FAQData = [
 ];
 
 export const FAQFutsal = () => (
-  <section className='relative pt-16 pb-16 bg-blueGray-50 overflow-hidden'>
+  <section className='relative pt-0 pb-16 bg-blueGray-50 overflow-hidden'>
     <div className='absolute -top-10' id='FAQ' />
     <motion.div
       initial={{ opacity: 0 }}
@@ -94,7 +94,7 @@ const FAQBox = ({ defaultOpen, title, content }) => {
           {title}
         </h3>
         <p
-          className={`text-customGrayText t-4 transition-all duration-300 overflow-hidden ${
+          className={`text-customGrayText pt-0 lg:pt-4 transition-all duration-300 overflow-hidden ${
             isOpen ? 'max-h-96' : 'max-h-0'
           }`}
         >

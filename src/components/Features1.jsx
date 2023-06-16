@@ -17,7 +17,7 @@ export const Features1 = () => {
           <div className='w-full lg:w-full mb-12 lg:mb-0'>
             <div className='flex flex-col lg:flex-row mx-auto lg:space-x-14 lg:mx-auto w-11/12 sm:w-4/5 lg:w-11/12 lg:w-unset'>
               <div>
-                <h2 className='mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title'>
+                <h2 className='mb-8 text-4xl lg:text-5xl custom-block-big-title lg:!leading-snug'>
                   Apa itu Week of Engineering?
                 </h2>
                 <p className='mb-10 text-customGrayText leading-loose'>

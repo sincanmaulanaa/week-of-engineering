@@ -67,7 +67,7 @@ export const HeroMlbb = () => {
           animate={{ opacity: 1, y: 0, zIndex: 20 }}
           transition={{ duration: 0.5, delay: 0.15 }}
         >
-          <div className='relative w-screen flex justify-center'>
+          <div className='relative w-screen flex justify-center mt-10'>
             <img
               src={WoeWhite}
               alt='WOE LOGO'

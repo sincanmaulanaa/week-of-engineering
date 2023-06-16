@@ -66,11 +66,11 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0, zIndex: 20 }}
           transition={{ duration: 0.5, delay: 0.15 }}
         >
-          <div className='relative w-screen flex justify-center'>
+          <div className='relative w-screen flex justify-center mt-10'>
             <img
               src={WoeWhite}
               alt='WOE LOGO'
-              className='w-full md:w-1/2 mx-auto absolute z-10 -top-28 lg:-top-36 2xl:-top-80'
+              className='w-full md:w-1/2 mx-auto absolute z-10 -top-28 lg:-top-36'
             />
           </div>
         </motion.div>
