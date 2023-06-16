@@ -1,7 +1,4 @@
 import { motion } from 'framer-motion';
-import { useState } from 'react';
-
-import { InvitationModal } from './InvitationModal';
 import futsal from '../assets/images/competitions/futsal.jpg';
 import keteknikkan from '../assets/images/competitions/keteknikkan.jpg';
 import essay from '../assets/images/competitions/essay.jpg';
@@ -9,8 +6,6 @@ import mlbb from '../assets/images/competitions/mlbb.jpg';
 import videoProfil from '../assets/images/competitions/video-profil.jpg';
 
 export const FeaturesDiagonal = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
   return (
     <section className='lg:mb-16 w-full flex flex-col justify-center items-center bg-customDarkBg1'>
       <div className='custom-shape-divider-bottom-1665696614'>
@@ -62,10 +57,7 @@ export const FeaturesDiagonal = () => {
                 atau pandanganmu terkait topik terkait bidang teknik. Buktikan
                 kepiawaianmu dalam merangkai kata dan menginspirasi pembaca.
               </p>
-              <div
-                className='w-full md:w-[210px] h-12 custom-button-colored mr-10'
-                onClick={() => setIsModalOpen(true)}
-              >
+              <div className='w-full md:w-[210px] h-12 custom-button-colored mr-10'>
                 Daftar
               </div>
             </div>
@@ -76,10 +68,7 @@ export const FeaturesDiagonal = () => {
                 E-sport ini akan menguji strategi, kecepatan, dan kerjasama
                 timmu. Siapakah yang akan menjadi juara dalam pertarungan ini?
               </p>
-              <div
-                className='w-full md:w-[210px] h-12 custom-button-colored mr-10'
-                onClick={() => setIsModalOpen(true)}
-              >
+              <div className='w-full md:w-[210px] h-12 custom-button-colored mr-10'>
                 Daftar
               </div>
             </div>
@@ -91,10 +80,7 @@ export const FeaturesDiagonal = () => {
                 keunikan, keistimewaan, dan semangat Fakultas Teknik melalui
                 karya video yang mengesankan.
               </p>
-              <div
-                className='w-full md:w-[210px] h-12 custom-button-colored mr-10'
-                onClick={() => setIsModalOpen(true)}
-              >
+              <div className='w-full md:w-[210px] h-12 custom-button-colored mr-10'>
                 Daftar
               </div>
             </div>
@@ -108,10 +94,7 @@ export const FeaturesDiagonal = () => {
                 prakikum yang dimiliki oleh Fakultas Teknik universitas
                 Muhammadiyah Ponorogo.
               </p>
-              <div
-                className='w-full md:w-[210px] h-12 custom-button-colored mr-10'
-                onClick={() => setIsModalOpen(true)}
-              >
+              <div className='w-full md:w-[210px] h-12 custom-button-colored mr-10'>
                 Daftar
               </div>
             </div>
@@ -132,9 +115,6 @@ export const FeaturesDiagonal = () => {
           ></path>
         </svg>
       </div>
-      {isModalOpen && (
-        <InvitationModal isOpen={isModalOpen} setIsOpen={setIsModalOpen} />
-      )}
     </section>
   );
 };
