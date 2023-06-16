@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { HeroFutsal } from '../components/HeroFutsal.jsx';
+import { Navbar } from '../components/Navbar.jsx';
+import { FAQFutsal } from '../components/FAQFutsal.jsx';
+import { Footer } from '../components/Footer.jsx';
+import { ScrollUpButton } from '../components/ScrollUpButton';
+import '../styles/Theme.css';
+import '../styles/Diagonals.css';
+---
+
+<Layout title='Futsal | BEMFT UMPO'>
+  <Navbar client:load />
+  <HeroFutsal client:load />
+  <FAQFutsal client:load />
+  <Footer />
+  <ScrollUpButton client:load />
+</Layout>

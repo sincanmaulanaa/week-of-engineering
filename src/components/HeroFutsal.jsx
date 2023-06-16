@@ -1,12 +1,7 @@
-import { useState } from 'react';
 import { motion } from 'framer-motion';
-
-import { InvitationModal } from './InvitationModal';
 import WoeWhite from '../assets/images/woe-white.png';
 
-export const Hero = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
+export const HeroFutsal = () => {
   return (
     <section
       className='w-screen  flex justify-center items-center bg-customDarkBg1 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0'
@@ -28,11 +23,11 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.05 }}
         >
           <div className='text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4'>
-            <span className='inline md:hidden'>Week of</span>
-            <span className='hidden md:inline'>Week of</span>
+            <span className='inline md:hidden'>FUTSAL</span>
+            <span className='hidden md:inline'>FUTSAL</span>
           </div>
           <div className='mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-20 md:px-24 lg:px-24'>
-            Engineering 2023
+            ⚽Competition⚽
           </div>
         </motion.div>
         <motion.div
@@ -41,7 +36,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <div className='text-customGrayText text-base lg:text-xl xl:text-2xl mt-10 px-12 sm:px-48 '>
-            Express your style, show your ability.
+            Turnamen Futsal Week Of Engineering.
           </div>
         </motion.div>
         <motion.div
@@ -51,17 +46,18 @@ export const Hero = () => {
         >
           <div className='flex flex-col gap-2 sm:flex-row mt-14 mb-24 sm:mb-40 justify-center'>
             <a
-              href='#features'
+              href='https://bit.ly/LombaFutsalWOE2023'
+              target='_blank'
               className='custom-button-colored w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0'
             >
-              Jelajahi
+              Daftar Yuk
             </a>
             <a
-              href='https://www.instagram.com/bemft_umpo'
+              href='https://drive.google.com/file/d/1JV_Y__1Xmi3T9m2kuuzSXxdKBIP-vI08/view?usp=sharing'
               target='_blank'
               className='w-64 sm:w-52 h-12 rounded-xl font-bold text-white border border-solid  flex justify-center items-center cursor-pointer bg-customDarkBg2 hover:bg-customDarkBg3 border-customPrimary transition'
             >
-              Kontak Kami
+              Unduh Guidebook
             </a>
           </div>
         </motion.div>
@@ -95,9 +91,6 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-      {isModalOpen && (
-        <InvitationModal isOpen={isModalOpen} setIsOpen={setIsModalOpen} />
-      )}
     </section>
   );
 };
