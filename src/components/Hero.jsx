@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-
-import { InvitationModal } from './InvitationModal';
 import WoeWhite from '../assets/images/woe-white.png';
 
 export const Hero = () => {
