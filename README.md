@@ -8,7 +8,7 @@ Astro, React, Tailwind, Framer Motion
 
 ## Live link
 
-[https://tailcast.vercel.app/](https://tailcast.vercel.app/)
+[https://woe-bemft.tech/](https://woe-bemft.tech/)
 
 ## Project Structure
 
