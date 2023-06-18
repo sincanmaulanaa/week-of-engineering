@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
 
-import { AmazonLogo } from '../assets/logos/AmazonLogo';
-import { DropboxLogo } from '../assets/logos/DropboxLogo';
-import { NetflixLogo } from '../assets/logos/NetflixLogo';
-import { SlackLogo } from '../assets/logos/SlackLogo';
-import { SpotifyLogo } from '../assets/logos/SpotifyLogo';
-import { StripeLogo } from '../assets/logos/StripeLogo';
+import ft from '../assets/logos/ft.png';
+import bemft from '../assets/logos/bemft.png';
+import kabinet from '../assets/logos/kabinet.png';
+import hmm from '../assets/logos/hmm.png';
+import hme from '../assets/logos/hme.png';
+import himaka from '../assets/logos/Himaka.png';
 
 export const Brands = () => (
   <section className='py-12 sm:py-24 bg-customDarkBg2 w-full mt-16 mb-16'>
@@ -30,23 +30,39 @@ export const Brands = () => (
           <div className='w-2/3 sm:w-[620px] lg:w-1/2 mx-auto lg:mx-0 lg:pl-10'>
             <div className='flex flex-wrap -m-4'>
               <div className='w-1/2 sm:w-1/3 py-6 flex justify-center'>
-                <AmazonLogo />
+                <img src={ft} alt='fakultas teknik' className='w-full' />
               </div>
               <div className='w-1/2 sm:w-1/3 py-6 flex  justify-center'>
-                <DropboxLogo />
+                <img
+                  src={bemft}
+                  alt='fakultas teknik'
+                  className='w-20  lg:w-32'
+                />
               </div>
               <div className='w-1/2 sm:w-1/3 py-6 flex  justify-center'>
-                <NetflixLogo />
+                <img
+                  src={kabinet}
+                  alt='fakultas teknik'
+                  className='w-20  lg:w-32'
+                />
               </div>
               <div className='w-1/2 sm:w-1/3 py-6 flex justify-center'>
-                <StripeLogo />
+                <img
+                  src={hmm}
+                  alt='fakultas teknik'
+                  className='w-20  lg:w-32'
+                />
               </div>
 
               <div className='w-1/2 sm:w-1/3 py-6 flex justify-center'>
-                <SpotifyLogo />
+                <img src={hme} alt='fakultas teknik' className='w-28 lg:w-44' />
               </div>
               <div className='w-1/2 sm:w-1/3  py-6 flex  justify-center'>
-                <SlackLogo />
+                <img
+                  src={himaka}
+                  alt='fakultas teknik'
+                  className='w-20  lg:w-32'
+                />
               </div>
             </div>
           </div>
