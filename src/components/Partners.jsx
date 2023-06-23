@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import mutu from '../assets/logos/mutu.png';
+import mutu from '../assets/logos/mutu.jpg';
 
 export const Partners = () => (
   <section className='py-12 sm:py-24 bg-customDarkBg2 w-full mt-16 mb-16'>
@@ -23,11 +23,11 @@ export const Partners = () => (
           </div>
           <div className='w-2/3 sm:w-[620px] lg:w-1/2 mx-auto lg:mx-0 lg:pl-10'>
             <div className='flex flex-wrap -m-4 justify-center'>
-              <div className='w-1/2 sm:w-1/3 py-6 flex justify-center items-center p-6 rounded-xl bg-white'>
+              <div className='w-full sm:w-full py-10 flex justify-center items-center px-6 rounded-xl bg-white'>
                 <img
                   src={mutu}
                   alt='fakultas teknik'
-                  className='w-20 lg:w-96'
+                  className='w-44 lg:w-96'
                 />
               </div>
             </div>
