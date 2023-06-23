@@ -23,7 +23,7 @@ export const Brands = () => (
                 Week of Engineering 2023
               </h2>
               <h2 className='text-4xl lg:!text-3xl lg:mt-6 sm:text-5xl 2xl:text-6xl font-bold tracking-normal text-customSecondary'>
-                di sponsori oleh
+                Sponsored by
               </h2>
             </div>
           </div>
