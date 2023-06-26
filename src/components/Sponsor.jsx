@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
-import mutu from '../assets/logos/mutu.jpg';
-import cabdin from '../assets/logos/cabdin.png';
-import kominfo from '../assets/logos/kominfo.png';
+import mahameru from '../assets/logos/mahameru.png';
+import dicoding from '../assets/logos/dicoding.png';
+import ldp from '../assets/logos/ldp.jpg';
 
-export const Partners = () => (
+export const Sponsor = () => (
   <section className='py-12 sm:py-24 bg-customDarkBg2 w-full mt-16 mb-16'>
     <motion.div
       initial={{ opacity: 0 }}
@@ -19,7 +19,7 @@ export const Partners = () => (
                 Week of Engineering 2023
               </h2>
               <h2 className='text-4xl lg:!text-3xl lg:mt-6 sm:text-5xl 2xl:text-6xl font-bold tracking-normal text-customSecondary'>
-                Media Partners
+                Sponsored by
               </h2>
             </div>
           </div>
@@ -27,24 +27,20 @@ export const Partners = () => (
             <div className='flex -m-4 justify-center space-x-5'>
               <div className='w-full sm:w-full p-2 lg:py-5 lg:px-6 flex justify-center items-center rounded-xl bg-white'>
                 <img
-                  src={cabdin}
-                  alt='Cabang Dinas Pendidikan Jawa Timur'
+                  src={dicoding}
+                  alt='Dicoding Academy'
                   className='w-72 lg:w-72'
                 />
               </div>
               <div className='w-full sm:w-full p-2 lg:py-5 lg:px-6 flex justify-center items-center rounded-xl bg-white'>
                 <img
-                  src={kominfo}
-                  alt='Kominfo Ponorogo'
-                  className='w-72 lg:w-72'
+                  src={mahameru}
+                  alt='Mahameru'
+                  className='w-72 lg:w-72 bg-red-600'
                 />
               </div>
               <div className='w-full sm:w-full p-2 lg:py-5 lg:px-6 flex justify-center items-center rounded-xl bg-white'>
-                <img
-                  src={mutu}
-                  alt='SMK MUHAMMADIYAH 1 PONOROGO'
-                  className='w-72 lg:w-72'
-                />
+                <img src={ldp} alt='LDP' className='w-72 lg:w-72' />
               </div>
             </div>
           </div>
