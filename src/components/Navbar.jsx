@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 import WoeWhite from '../assets/images/woe-white.png';
-import { GithubIcon } from '../assets/icons/GithubIcon';
 
 const navbarLinks = [
   { label: 'Home', href: '/', ariaLabel: 'Home' },
