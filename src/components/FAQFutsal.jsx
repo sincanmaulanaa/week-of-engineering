@@ -12,13 +12,7 @@ const FAQData = [
     answer: [
       ['1. Mengisi formulir pendaftaran yang sudah disediakan panitia.'],
       [<br />],
-      ['2. Foto copy KTM/SIMTIK tiap peserta.'],
-      [<br />],
-      ['3. Menyerahkan foto berukuran 3x4 background bebas.'],
-      [<br />],
-      ['4. Mahasiswa aktif Fakultas Teknik.'],
-      [<br />],
-      ['5. Pendaftaran dimulai tanggal 14-26 Juni 2023 tempat sekret BEM FT.'],
+      ['2. Mahasiswa aktif Fakultas Teknik.'],
     ],
   },
   {
@@ -32,7 +26,8 @@ const FAQData = [
             Transfer bank BRI : 0070-01-086180-50-8 An. Aprilia Fiajar Rina.
           </li>
           <li>
-            Secara offline di sekretariat Badan Eksekutif Mahasiswa (BEM-FT)
+            Atau secara offline di sekretariat Badan Eksekutif Mahasiswa
+            (BEM-FT)
           </li>
         </ul>,
       ],
@@ -69,12 +64,6 @@ export const FAQFutsal = () => (
               </div>
             ))}
           </div>
-          <div>
-            <h3 className='text-white font-medium'>Contact Person</h3>
-            <p className='custom-block-big-title !text-xl'>
-              KEVIN RAFI : 085204228344
-            </p>
-          </div>
         </div>
       </div>
     </motion.div>
@@ -86,7 +75,7 @@ const FAQBox = ({ defaultOpen, title, content }) => {
 
   return (
     <div
-      className='pt-2 sm:pt-6 pb-2 px-3 sm:px-8  rounded-3xl bg-customDarkBg3 custom-border-gray-darker mb-4 relative hover:bg-customDarkBg3Hover cursor-pointer'
+      className='pt-2 sm:pt-6 pb-2 px-3 sm:px-8  rounded-3xl bg-white custom-border-gray-darker mb-4 relative hover:shadow-none transition-all duration-200 cursor-pointer shadow-sm'
       onClick={() => setIsOpen(!isOpen)}
     >
       <div className='flex flex-col p-2 justify-center items-start'>

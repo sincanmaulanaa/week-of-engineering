@@ -4,7 +4,7 @@ import { CheckArrowIcon } from '../assets/icons/CheckArrowIcon';
 export const Features1 = () => {
   return (
     <section
-      className='w-full bg-customDarkBg2 mt-20 mb-8 sm:mt-16 sm:mb-16 xl:mt-0  xl:m pt-[2rem]  md:pt-[12vw] lg:pt-0'
+      className='w-full bg-customDarkBg2 mt-20 mb-0 sm:mt-16 sm:mb-0 xl:mt-0  xl:m pt-[2rem]  md:pt-[12vw] lg:pt-0'
       id='features'
     >
       <motion.div
@@ -20,8 +20,8 @@ export const Features1 = () => {
                 <h2 className='mb-8 text-4xl lg:text-5xl custom-block-big-title lg:!leading-snug'>
                   Apa itu Week of Engineering?
                 </h2>
-                <p className='mb-10 text-customGrayText leading-loose'>
-                  WEEK OF ENGINEERING 2023 merupakan kompetisi umum yang
+                <p className='mb-10 text-slate-900 leading-loose'>
+                  WEEK OF ENGINEERING 2024 merupakan kompetisi umum yang
                   diselenggarakan oleh Badan Eksekutif Mahasiswa (BEM-FT)
                   Universitas Muhammadiyah Ponorogo.
                   <br /> <br />
@@ -35,7 +35,7 @@ export const Features1 = () => {
                   <span className='custom-block-subtitle lg:!text-xl'>
                     Lomba Siswa SMA/SMK sederajat
                   </span>
-                  <ul className='mt-4 text-white'>
+                  <ul className='mt-4 text-slate-900'>
                     <li className='mb-4 flex'>
                       <CheckArrowIcon />
                       <span>Essay</span>
@@ -46,11 +46,7 @@ export const Features1 = () => {
                     </li>
                     <li className='mb-4 flex'>
                       <CheckArrowIcon />
-                      <span>UI/UX Design</span>
-                    </li>
-                    <li className='mb-4 flex'>
-                      <CheckArrowIcon />
-                      <span>Poster</span>
+                      <span>Web Design</span>
                     </li>
                   </ul>
                 </div>
@@ -58,7 +54,7 @@ export const Features1 = () => {
                   <span className='custom-block-subtitle lg:!text-xl'>
                     Lomba Mahasiswa Fakultas Teknik
                   </span>
-                  <ul className='mt-4 text-white'>
+                  <ul className='mt-4 text-slate-900'>
                     <li className='mb-4 flex'>
                       <CheckArrowIcon />
                       <span>Futsal</span>
@@ -66,10 +62,6 @@ export const Features1 = () => {
                     <li className='mb-4 flex'>
                       <CheckArrowIcon />
                       <span>Mobile Legends</span>
-                    </li>
-                    <li className='mb-4 flex'>
-                      <CheckArrowIcon />
-                      <span>Video Profiling Fakultas</span>
                     </li>
                   </ul>
                 </div>

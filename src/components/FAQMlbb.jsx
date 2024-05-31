@@ -11,7 +11,7 @@ const FAQData = [
     question: 'Syarat pendaftarannya apa aja?',
     answer: [
       [
-        '1. Pemain merupakan mahasiswa aktif Universitas Muhammadiyah Ponorogo yang dibuktikan dengan foto selfie dengan Kartu Tanda Mahasiswa.',
+        '1. Pemain merupakan mahasiswa aktif Fakultas Teknik Universitas Muhammadiyah Ponorogo yang dibuktikan dengan Kartu Tanda Mahasiswa/Profil SIMTIK jika belum punya KTM.',
       ],
       [<br />],
       [
@@ -67,12 +67,6 @@ export const FAQMlbb = () => (
               </div>
             ))}
           </div>
-          <div>
-            <h3 className='text-white font-medium'>Contact Person</h3>
-            <p className='custom-block-big-title !text-xl'>
-              Agil : 082230303909
-            </p>
-          </div>
         </div>
       </div>
     </motion.div>
@@ -84,7 +78,7 @@ const FAQBox = ({ defaultOpen, title, content }) => {
 
   return (
     <div
-      className='pt-2 sm:pt-6 pb-2 px-3 sm:px-8  rounded-3xl bg-customDarkBg3 custom-border-gray-darker mb-4 relative hover:bg-customDarkBg3Hover cursor-pointer'
+      className='pt-2 sm:pt-6 pb-2 px-3 sm:px-8 rounded-3xl bg-white shadow-sm mb-4 relative hover:shadow-none transition-all duration-200 cursor-pointer'
       onClick={() => setIsOpen(!isOpen)}
     >
       <div className='flex flex-col p-2 justify-center items-start'>

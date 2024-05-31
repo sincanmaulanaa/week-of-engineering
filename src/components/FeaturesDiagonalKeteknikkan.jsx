@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion';
-import futsal from '../assets/images/competitions/futsal.jpg';
-import uiux from '../assets/images/keteknikkan-lomba/uiux.jpg';
-import gambarTeknik from '../assets/images/keteknikkan-lomba/gambar-teknik.jpg';
-import poster from '../assets/images/keteknikkan-lomba/poster.jpg';
+import uiux from '../assets/images/keteknikkan-lomba/1.jpg';
+import gambarTeknik from '../assets/images/keteknikkan-lomba/2.jpg';
+import poster from '../assets/images/keteknikkan-lomba/3.jpg';
 
 export const FeaturesDiagonalKeteknikkan = () => {
   return (
@@ -33,27 +32,27 @@ export const FeaturesDiagonalKeteknikkan = () => {
         <div className=' 2xl:w-[1150px] xl:w-[1050px] md:w-4/5 flex justify-center bg-customDarkBg1 pt-4 lg:pt-24 pb-8 lg:pb-20 mx-auto flex-col'>
           <div className='w-3/4 lg:w-11/12 flex flex-col lg:mx-unset mx-auto'>
             <h2 className='mt-10 !mb-0 md:mb-5 lg:text-center !text-4xl lg:text-5xl custom-block-big-title !leading-snug'>
-              Daftar Lomba Keteknikkan.
+              Daftar Lomba Keteknikan.
             </h2>
           </div>
           <div className='w-4/5 lg:w-full lg:pl-0 flex flex-col lg:flex-row justify-center space-y-8 lg:space-x-8 lg:mt-8 lg:space-y-0 mx-auto pt-16 lg:pt-0'>
-            <div className='border-2 border-gray-400 rounded-xl p-5 bg-gray-900 lg:w-1/3'>
+            <div className='shadow-md rounded-xl p-5 bg-white lg:w-1/3'>
               <img src={uiux} alt='uiux design' className='rounded-xl' />
               <p className='mb-10 text-customGrayText leading-loose mt-4 line-clamp-6'>
-                Kompetisi UI/UX Design tingkat SMA/SMK Sederajat adalah sebuah
+                Kompetisi Web Design tingkat SMA/SMK Sederajat adalah sebuah
                 ajang kompetisi desain antar pelajar SMA/SMK untuk merancang
                 sebuah antarmuka atau produk yang memiliki nilai inovasi dan
                 kegunaan yang tinggi.
               </p>
               <a
-                href='https://bit.ly/UIUXWOE2023'
+                href='https://s.id/lomba-keteknikan'
                 target='_blank'
                 className='w-full h-12 custom-button-colored mr-10'
               >
                 Daftar
               </a>
             </div>
-            <div className='border-2 border-gray-400 rounded-xl p-5 bg-gray-900 lg:w-1/3'>
+            <div className='shadow-md rounded-xl p-5 bg-white lg:w-1/3'>
               <img
                 src={gambarTeknik}
                 alt='gambar teknik'
@@ -65,23 +64,22 @@ export const FeaturesDiagonalKeteknikkan = () => {
                 berbeda karena memiliki standar gambar tertentu.
               </p>
               <a
-                href='https://bit.ly/LombaGamtek2DWOE2023'
+                href='https://s.id/lomba-keteknikan'
                 target='_blank'
                 className='w-full h-12 custom-button-colored mr-10'
               >
                 Daftar
               </a>
             </div>
-            <div className='border-2 border-gray-400 rounded-xl p-5 bg-gray-900 lg:w-1/3'>
+            <div className='shadow-md rounded-xl p-5 bg-white lg:w-1/3'>
               <img src={poster} alt='poster' className='rounded-xl' />
               <p className='mb-10 text-customGrayText leading-loose mt-4 line-clamp-6'>
-                Kompetisi Design Grafis tingkat SMA/SMK Sederajat adalah sebuah
-                ajang kompetisi desain antar pelajar SMA/SMK untuk
-                mengekspresikan ide-ide mereka secara visual dan menciptakan
-                pesan yang kuat melalui desain poster.
+                Mengembangkan kemampuan siswa dan mahasiswa dalam menulis karya
+                ilmiah serta memudahkan mahasiswa untuk mengungkapkan ide-ide
+                inovatif dan kreatifitas di bidang penulisan essay.
               </p>
               <a
-                href='https://bit.ly/LombaposterWOE2023'
+                href='https://s.id/lomba-keteknikan'
                 target='_blank'
                 className='w-full h-12 custom-button-colored mr-10'
               >

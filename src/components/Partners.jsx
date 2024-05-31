@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
-import mutu from '../assets/logos/mutu.jpg';
-import cabdin from '../assets/logos/cabdin.png';
-import kominfo from '../assets/logos/kominfo.png';
+import meme_jenangan from '../assets/logos/meme_jng.png';
+import liputan_ponorogo from '../assets/logos/liputan_png.png';
+import ponorogo_update from '../assets/logos/png_update.jpeg';
 
 export const Partners = () => (
-  <section className='py-12 sm:py-24 bg-customDarkBg2 w-full mt-16 mb-16'>
+  <section className='py-12 sm:py-24 bg-customDarkBg2 w-full'>
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -15,10 +15,10 @@ export const Partners = () => (
         <div className='flex lg:flex-row flex-col items-center -mx-4 justify-center lg:text-left text-center'>
           <div className='w-full lg:w-1/2 px-4 mb-12 lg:mb-0'>
             <div className='flex flex-col'>
-              <h2 className='mb-2  text-2xl sm:text-5xl 2xl:text-6xl font-bold tracking-normal text-white'>
-                Week of Engineering 2023
+              <h2 className='mb-2  text-2xl sm:text-5xl 2xl:text-6xl font-bold tracking-normal text-blue-900'>
+                WEEK OF ENGINEERING
               </h2>
-              <h2 className='text-4xl lg:!text-3xl lg:mt-6 sm:text-5xl 2xl:text-6xl font-bold tracking-normal text-customSecondary'>
+              <h2 className='text-4xl lg:!text-3xl lg:mt-6 sm:text-5xl 2xl:text-6xl font-normal tracking-normal text-blue-900'>
                 Media Partners
               </h2>
             </div>
@@ -27,22 +27,22 @@ export const Partners = () => (
             <div className='flex -m-4 justify-center space-x-5'>
               <div className='w-full sm:w-full p-2 lg:py-5 lg:px-6 flex justify-center items-center rounded-xl bg-white'>
                 <img
-                  src={cabdin}
-                  alt='Cabang Dinas Pendidikan Jawa Timur'
+                  src={liputan_ponorogo}
+                  alt='Liputan Ponorogo'
                   className='w-72 lg:w-72'
                 />
               </div>
               <div className='w-full sm:w-full p-2 lg:py-5 lg:px-6 flex justify-center items-center rounded-xl bg-white'>
                 <img
-                  src={kominfo}
-                  alt='Kominfo Ponorogo'
+                  src={ponorogo_update}
+                  alt='Ponorogo Update'
                   className='w-72 lg:w-72'
                 />
               </div>
               <div className='w-full sm:w-full p-2 lg:py-5 lg:px-6 flex justify-center items-center rounded-xl bg-white'>
                 <img
-                  src={mutu}
-                  alt='SMK MUHAMMADIYAH 1 PONOROGO'
+                  src={meme_jenangan}
+                  alt='Meme Jenangan'
                   className='w-72 lg:w-72'
                 />
               </div>

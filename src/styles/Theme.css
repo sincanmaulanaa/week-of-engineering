@@ -4,13 +4,13 @@
   @apply text-white text-3xl font-bold tracking-normal;
 }
 .custom-block-big-title {
-  @apply text-white text-4xl xl:text-5xl font-bold tracking-normal;
+  @apply text-blue-900 text-4xl xl:text-5xl font-bold tracking-normal;
 }
 .custom-block-subtitle {
-  @apply text-xs text-customSecondary  tracking-wider font-bold uppercase;
+  @apply text-xs text-blue-900  tracking-wider font-bold uppercase;
 }
 .custom-content-title {
-  @apply text-white text-lg font-bold tracking-normal;
+  @apply text-blue-900 text-lg font-bold tracking-normal;
 }
 .custom-content-text-white {
   @apply text-white text-base leading-relaxed;
@@ -47,13 +47,13 @@ html {
 /* Buttons */
 
 .custom-button-colored {
-  @apply rounded-lg font-bold bg-customPrimary text-white flex justify-center items-center hover:bg-[#7274f3] cursor-pointer transition;
+  @apply rounded-lg font-bold bg-orange-500 text-white flex justify-center items-center hover:bg-orange-400 cursor-pointer transition;
 }
 
 /* Navbar */
 
 .navbar-link {
-  @apply text-white lg:text-base text-2xl  leading-6 mr-4 ml-4   2xl:mr-6 2xl:ml-6 cursor-pointer font-normal lg:font-medium hover:scale-110 transition duration-300 h-full pt-2;
+  @apply text-slate-800 lg:text-base text-2xl  leading-6 mr-4 ml-4   2xl:mr-6 2xl:ml-6 cursor-pointer font-normal lg:font-medium hover:scale-110 transition duration-300 h-full pt-2;
 }
 
 /* Preventing FOUC */

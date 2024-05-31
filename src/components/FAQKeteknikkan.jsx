@@ -25,9 +25,9 @@ const FAQData = [
     answer: [
       [
         <ul>
-          <li>UI/UX Design &gt; Rp50.000/Tim.</li>
-          <li>Gambar Teknik &gt; Rp35.000/Poster.</li>
-          <li>Desain Poster &gt; Rp35.000/Tim.</li>
+          <li>Web Design &gt; Rp50.000/Tim.</li>
+          <li>Gambar Teknik &gt; Rp35.000/Tim.</li>
+          <li>Essay &gt; Rp35.000/Individu.</li>
         </ul>,
       ],
     ],
@@ -63,32 +63,6 @@ export const FAQKeteknikkan = () => (
               </div>
             ))}
           </div>
-          <div className='flex flex-col space-y-4'>
-            <div>
-              <h3 className='text-white font-medium'>
-                Contact Person UI/UX Design
-              </h3>
-              <p className='custom-block-big-title !text-xl'>
-                Zakia : 081334851551
-              </p>
-            </div>
-            <div>
-              <h3 className='text-white font-medium'>
-                Contact Person Gambar Teknik
-              </h3>
-              <p className='custom-block-big-title !text-xl'>
-                Bahar : 081229093485
-              </p>
-            </div>
-            <div>
-              <h3 className='text-white font-medium'>
-                Contact Person Desain Poster
-              </h3>
-              <p className='custom-block-big-title !text-xl'>
-                Bahar : 081229093485
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </motion.div>
@@ -100,7 +74,7 @@ const FAQBox = ({ defaultOpen, title, content }) => {
 
   return (
     <div
-      className='pt-2 sm:pt-6 pb-2 px-3 sm:px-8  rounded-3xl bg-customDarkBg3 custom-border-gray-darker mb-4 relative hover:bg-customDarkBg3Hover cursor-pointer'
+      className='pt-2 sm:pt-6 pb-2 px-3 sm:px-8  rounded-3xl bg-white shadow-sm custom-border-gray-darker mb-4 relative hover:shadow-none transition-all duration-200 cursor-pointer'
       onClick={() => setIsOpen(!isOpen)}
     >
       <div className='flex flex-col p-2 justify-center items-start'>

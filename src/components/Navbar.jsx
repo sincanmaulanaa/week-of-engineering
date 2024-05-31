@@ -6,21 +6,15 @@ import WoeWhite from '../assets/images/woe-white.png';
 const navbarLinks = [
   { label: 'Home', href: '/', ariaLabel: 'Home' },
   { label: 'Futsal', href: '/futsal', ariaLabel: 'futsal' },
-  { label: 'Essay', href: '/essay', ariaLabel: 'essay' },
   { label: 'MLBB', href: '/mlbb', ariaLabel: 'mlbb' },
-  {
-    label: 'Video Profiling',
-    href: '/videoProfile',
-    ariaLabel: 'videoProfile',
-  },
-  { label: 'Keteknikkan', href: '/keteknikkan', ariaLabel: 'keteknikkan' },
+  { label: 'Keteknikan', href: '/keteknikkan', ariaLabel: 'keteknikkan' },
 ];
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className='w-full h-20 flex flex-col justify-center items-center fixed bg-customDarkBg1 lg:bg-customDarkBgTransparent z-40 lg:backdrop-blur-xl'>
+    <nav className='w-full h-20 flex flex-col justify-center items-center fixed bg-customDarkBg1 lg:bg-customDarkBgTransparent z-40 lg:backdrop-blur-xl shadow-sm'>
       <div className='2xl:w-[1280px] xl:w-10/12 w-11/12 flex justify-between items-center relative'>
         <motion.div
           initial={{ opacity: 0 }}
@@ -30,15 +24,8 @@ export const Navbar = () => {
         >
           <a className='navbar-link' href='#home' aria-label='Home'>
             <div className='flex justify-start items-center grow basis-0'>
-              <div className='text-white mr-2 text-6xl'>
-                <img
-                  src={WoeWhite}
-                  alt='WOE logo'
-                  className='w-[160px] md:w-[180px] -ml-4 md:-ml-0'
-                />
-              </div>
-              <div className="text-white font-['Inter'] font-bold text-xl hidden md:visible">
-                Week Of Engineering
+              <div className="text-slate-800 font-['Inter'] font-bold text-xl">
+                WEEK OF ENGINEERING 2024
               </div>
             </div>
           </a>
@@ -52,7 +39,7 @@ export const Navbar = () => {
           <div className='hidden lg:flex h-full pl-12 pb-2'>
             {navbarLinks.map(({ href, label, ariaLabel }) => (
               <a
-                className='navbar-link'
+                className='navbar-link text-slate-700'
                 href={href}
                 aria-label={ariaLabel}
                 key={label}
@@ -70,8 +57,8 @@ export const Navbar = () => {
         >
           <div className='grow basis-0 justify-end hidden lg:flex'>
             <a
-              className='text-white custom-border-gray rounded-xl
-           bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex'
+              className='text-white custom-border-gray rounded-lg
+           bg-orange-600 hover:bg-orange-300 transition-all duration-200 border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex'
               href='https://www.instagram.com/bemft_umpo'
               target='_blank'
               aria-label='Kontak Kami'
@@ -115,8 +102,8 @@ export const Navbar = () => {
                 </a>
               ))}
               <a
-                className='text-white custom-border-gray rounded-xl
-           bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex'
+                className='text-white rounded-xl
+                bg-orange-500 hover:bg-orange-700 border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex'
                 href='https://www.instagram.com/bemft_umpo'
                 target='_blank'
               >

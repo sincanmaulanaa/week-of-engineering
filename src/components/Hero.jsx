@@ -13,9 +13,9 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <div className='text-customSecondary text-lg md:text-3xl mb-6 sm:mt-16 mt-16 font-bold'>
-            BEM-FT UMPO <br />{' '}
-            <span className='!font-normal text-xl'>Mempersembahkan</span>
+          <div className='text-slate-800 text-lg md:text-4xl mb-6 sm:mt-16 mt-16 font-medium'>
+            BEM FAKULTAS TEKNIK UMPO <br />{' '}
+            <span className='!font-normal text-xl italic'>Mempersembahkan</span>
           </div>
         </motion.div>
         <motion.div
@@ -23,12 +23,14 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.05 }}
         >
-          <div className='text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4'>
-            <span className='inline md:hidden'>Week of</span>
-            <span className='hidden md:inline'>Week of</span>
+          <div className='text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-wide  text-slate-800  px-8 sm:px-8 md:px-20 lg:px-4'>
+            <span className='inline md:hidden'>👉 WEEK OF 👈</span>
+            <span className='hidden md:inline'>👉 WEEK OF 👈</span>
           </div>
-          <div className='mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white px-8 sm:px-20 md:px-24 lg:px-0'>
-            Engineering 2023
+          <div className='mt-2 sm:mt-2 text-4xl sm:text-7xl lg:text-8xl xl:text-8xl font-bold tracking-wide  text-slate-800 px-8 sm:px-20 md:px-24 lg:px-0'>
+            ENGINEERING
+            <br />
+            <span className='mt-10'>2024</span>
           </div>
         </motion.div>
         <motion.div
@@ -36,8 +38,11 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          <div className='text-customGrayText text-base lg:text-xl xl:text-2xl mt-10 px-12 sm:px-48 '>
-            Express your style, show your ability.
+          <div className='text-customGrayText text-xs lg:text-xl xl:text-2xl mt-10 px-12 sm:px-48 flex space-x-2 font-semibold'>
+            <span className='text-yellow-500'>~ Beranjak</span>
+            <span className='text-red-500'>Bergerak</span>
+            <span className='text-indigo-800'>Beraksi</span>
+            <span className='text-pink-700'>dan Buktikan ~</span>
           </div>
         </motion.div>
         <motion.div
@@ -55,7 +60,7 @@ export const Hero = () => {
             <a
               href='https://www.instagram.com/bemft_umpo'
               target='_blank'
-              className='w-64 sm:w-52 h-12 rounded-xl font-bold text-white border border-solid  flex justify-center items-center cursor-pointer bg-customDarkBg2 hover:bg-customDarkBg3 border-customPrimary transition'
+              className='w-64 sm:w-52 h-12 rounded-xl font-bold text-orange-500 border border-solid  flex justify-center items-center cursor-pointer bg-white hover:bg-orange-500 hover:text-white border-orange-500 transition'
             >
               Kontak Kami
             </a>
@@ -66,11 +71,11 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0, zIndex: 20 }}
           transition={{ duration: 0.5, delay: 0.15 }}
         >
-          <div className='relative w-screen flex justify-center mt-10'>
+          <div className='relative w-screen flex justify-center mt-16 lg:mt-10'>
             <img
               src={WoeWhite}
               alt='WOE LOGO'
-              className='w-full md:w-1/2 mx-auto absolute z-10 -top-28 lg:-top-36'
+              className='w-1/2 md:w-1/3 mx-auto absolute z-10 -top-28 lg:-top-36'
             />
           </div>
         </motion.div>
